@@ -1,0 +1,28 @@
+﻿# http
+fastapi[all]~=0.103.1 # includes univorn, pydantic, httpx [ref: https://fastapi.tiangolo.com/#optional-dependencies]
+graphene~=3.3
+gql[all]~=3.4.1
+
+# utils
+rapidfuzz~=3.2.0
+pydantic-settings~=2.0.3
+
+# db
+SQLAlchemy~=2.0.20
+mysqlclient~=2.2.0
+
+# data
+numpy~=1.25.2
+pandas~=2.1.0
+matplotlib~=3.7.2
+jupyterlab~=4.0.5
+ipython[all]~=8.15.0
+
+# scraping
+scrapy~=2.10.1
+
+# nlp
+spacy~=3.6.1
+
+# tests
+pytest~=6.2.5
