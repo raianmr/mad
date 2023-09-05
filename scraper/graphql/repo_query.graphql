@@ -1,0 +1,11 @@
+{
+    search(query: "org:microsoft", type: REPOSITORY, first: 10, after: null) {
+        edges {
+            node {
+                ... on Repository {
+                    id
+                }
+            }
+        }
+    }
+}
