@@ -10,6 +10,7 @@ pydantic-settings~=2.0.3
 # db
 SQLAlchemy~=2.0.20
 mysqlclient~=2.2.0
+mysql-connector-python
 
 # data
 numpy~=1.25.2

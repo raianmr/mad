@@ -1,0 +1,32 @@
+[
+    {
+        "name": "apache/spark",
+        "github_api_url": "https://api.github.com/repos/apache/spark",
+        "jira_api_url": "https://issues.apache.org/jira/rest/api/2/search?jql=project=SPARK"
+    },
+    {
+        "name": "apache/airflow",
+        "github_api_url": "https://api.github.com/repos/apache/airflow",
+        "jira_api_url": "https://issues.apache.org/jira/rest/api/2/search?jql=project=AIRFLOW"
+    },
+    {
+        "name": "apache/kafka",
+        "github_api_url": "https://api.github.com/repos/apache/kafka",
+        "jira_api_url": "https://issues.apache.org/jira/rest/api/2/search?jql=project=KAFAKA"
+    },
+    {
+        "name": "apache/hadoop",
+        "github_api_url": "https://api.github.com/repos/apache/hadoop",
+        "jira_api_url": "https://issues.apache.org/jira/rest/api/2/search?jql=project=HADOOP"
+    },
+    {
+        "name": "apache/arrow",
+        "github_api_url": "https://api.github.com/repos/apache/arrow",
+        "jira_api_url": "https://issues.apache.org/jira/rest/api/2/search?jql=project=ARROW"
+    },
+    {
+        "name": "apache/tomcat",
+        "github_api_url": "https://api.github.com/repos/apache/tomcat",
+        "jira_api_url": "https://issues.apache.org/jira/rest/api/2/search?jql=project=TOMCAT"
+    }
+]
