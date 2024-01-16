@@ -27,4 +27,3 @@ class Repo(BaseModel):
     jira_url: str
 
 repos = [Repo(**params) for params in json.loads(Path("./repos.json").read_text())]
-

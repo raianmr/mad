@@ -1,14 +1,16 @@
 ﻿# http
-fastapi[all]~=0.103.1 # includes univorn, pydantic, httpx [ref: https://fastapi.tiangolo.com/#optional-dependencies]
+fastapi[all]~=0.109.0 # includes univorn, pydantic, httpx [ref: https://fastapi.tiangolo.com/#optional-dependencies]
 graphene~=3.3
 gql[all]~=3.4.1
 
 # utils
 rapidfuzz~=3.2.0
-pydantic-settings~=2.0.3
+pydantic-settings~=2.1.0
 
 # db
-SQLAlchemy~=2.0.20
+alembic
+SQLAlchemy~=2.0.25
+psycopg[binary,pool]
 mysqlclient~=2.2.0
 mysql-connector-python
 
